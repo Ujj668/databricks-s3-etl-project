@@ -3,7 +3,7 @@
 **#Project Overview**
 An end-to-end ETL (Extract, Transform, Load) pipeline built using
 Databricks and AWS S3, processing NYC Taxi Zone data with 
-PySpark and Pandas, storing results as Delta tables.\
+PySpark and Pandas, storing results as Delta tables.
 
 **#Architecture**
 AWS S3 (Raw CSV)
