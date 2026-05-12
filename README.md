@@ -36,7 +36,6 @@ SQL Queries (Analysis
 ### Transform
 - Removed invalid Borough values (`N/A`, `Unknown`)
 - Removed duplicates and null values
-- Standardized text columns to consistent format
 - Added `is_yellow_zone` flag (Yes/No)
 - Added `is_airport_zone` flag (Yes/No)
 - Added `borough_category` (Core / Outer / Other)
@@ -44,7 +43,6 @@ SQL Queries (Analysis
 
 ### Load
 - Saved cleaned data as Delta table `taxi_zones_clean`
-- Saved aggregated data as Delta table `taxi_zones_summary`
 - Queried tables using Spark SQL
 
 - ## Key Learnings
